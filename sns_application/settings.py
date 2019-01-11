@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'sns_application.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sns_application',
+        'NAME': 'sns',
         'USER': 'root',
         'HOST': '',
         'PORT': '',
